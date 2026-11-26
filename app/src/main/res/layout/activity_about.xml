@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/light_pink">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me and Wattalyze"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/deep_plum" />
+
+    <ImageView
+        android:id="@+id/imageViewStudent"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/student_photo"
+        android:scaleType="centerCrop"
+        android:contentDescription="Student picture" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Information"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:id="@+id/textViewStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Qasrina Mazyunah Binti Mohamad Zaki\nStudent ID: 2024421522\nCourse: CDCS251 - Bachelor of Computer Science (Hons.) Netcentric Computing"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About the Application"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wattalyze is an electricity bill calculator that estimates monthly electricity charges based on electricity usage and rebate percentage. It also stores previous bill calculations for future reference."
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to Use Wattalyze"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Enter the billing month.\n2. Enter electricity usage between 1 and 1000 kWh.\n3. Select a rebate percentage from 0% to 5% using the slider.\n4. Tap CALCULATE to view the total charges and final cost.\n5. Tap VIEW BILL HISTORY to view saved calculations.\n6. Select a record to view its details, edit it or delete it."
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application Website"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textColor="@color/deep_plum" />
+
+    <TextView
+        android:id="@+id/textViewWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://github.com/YOUR-USERNAME/WattWise"
+        android:textSize="16sp"
+        android:textColor="@color/deep_plum"
+        android:paddingTop="8dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textColorLink="@color/deep_plum"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2026 Wattalyze. All Rights Reserved."
+        android:textSize="14sp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textColor="@color/deep_plum" />
+
+</LinearLayout>

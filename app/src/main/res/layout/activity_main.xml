@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/light_pink">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Wattalyze - Electricity Bill Calculator ⚡️"
+        android:textColor="@color/deep_plum"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Month"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/deep_plum"/>
+
+    <EditText
+        android:id="@+id/editTextMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter month (e.g. January)"
+        android:inputType="textCapWords"
+        android:textColor="@color/deep_plum"
+        android:textColorHint="#B18EAD"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electricity Usage (kWh)"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/deep_plum"/>
+
+    <EditText
+        android:id="@+id/editTextUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter usage (1 - 1000)"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@color/deep_plum"
+        android:textColorHint="#B18EAD"/>
+
+    <TextView
+        android:id="@+id/textViewRebate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rebate: 0%"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/deep_plum"/>
+
+    <SeekBar
+        android:id="@+id/seekBarRebate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:progressTint="@color/purple"
+        android:thumbTint="@color/deep_plum"
+        android:progressBackgroundTint="#E8B9D4"/>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="💲 CALCULATE"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Charges"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/deep_plum"/>
+
+    <TextView
+        android:id="@+id/textViewTotalCharges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RM 0.00"
+        android:textSize="18sp"
+        android:textColor="@color/deep_plum"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Cost After Rebate"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/deep_plum"/>
+
+    <TextView
+        android:id="@+id/textViewFinalCost"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="RM 0.00"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonHistory"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="🕓 VIEW BILL HISTORY"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="👤 ABOUT ME AND WATTALYZE"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
