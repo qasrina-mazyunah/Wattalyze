@@ -92,7 +92,7 @@
         android:id="@+id/textViewWebsite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://github.com/YOUR-USERNAME/WattWise"
+        android:text="https://github.com/qasrina-mazyunah/Wattalyze"
         android:textSize="16sp"
         android:textColor="@color/deep_plum"
         android:paddingTop="8dp"
